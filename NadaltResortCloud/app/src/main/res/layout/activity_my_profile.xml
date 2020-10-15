@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/simple_background"
+    tools:context=".MyProfile">
+
+
+    <TextView
+        android:id="@+id/profileTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="@font/calligraffitti"
+        android:text="@string/myProfile" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="70dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginRight="70dp">
+
+            <TextView
+                android:id="@+id/NameProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/calligraffitti"
+                android:text="TextView" />
+            <TextView
+                android:id="@+id/EmailProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/calligraffitti"
+                android:text="TextView" />
+            <TextView
+                android:id="@+id/phoneProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/calligraffitti"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/GenderProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/calligraffitti"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/DateOfBirthProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:fontFamily="@font/calligraffitti"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/myProfileImg"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            tools:srcCompat="@tools:sample/avatars[2]" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/editProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blankColor"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/calligraffitti"
+        android:text="@string/update" />
+</LinearLayout>

@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "591772693573",
+    "firebase_url": "https://nadalt-resort-system.firebaseio.com",
+    "project_id": "nadalt-resort-system",
+    "storage_bucket": "nadalt-resort-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591772693573:android:c7f1f7d6ae8957eddd5f2c",
+        "android_client_info": {
+          "package_name": "nadav.altabet.nadaltresortcloud"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591772693573-tf8t882771rbr3b3ln0jdpho3n9v33s0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nadav.altabet.nadaltresortcloud",
+            "certificate_hash": "4d6c8c8e7d045671d0a8ac7a22f7a4ba9b93041f"
+          }
+        },
+        {
+          "client_id": "591772693573-vanmbu9krfmtmoth20j4oictcdv00n2c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nadav.altabet.nadaltresortcloud",
+            "certificate_hash": "fb21cf32867401144b1ff809f9d11d8cc0cc7999"
+          }
+        },
+        {
+          "client_id": "591772693573-eap2j8e2avvcna5diu5euos365c43skl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nadav.altabet.nadaltresortcloud",
+            "certificate_hash": "e582a9cd5da8bea47067ae59178f6d251d9fd18e"
+          }
+        },
+        {
+          "client_id": "591772693573-u2j8hnlmfradm79pa6se2qa684etani3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABS0xY9_3fjBPwK0iKqYFlbuTB3S9tNpM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591772693573-u2j8hnlmfradm79pa6se2qa684etani3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/simple_background"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130sp"
+        android:textSize="25dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/calligraffitti"
+        android:text="@string/app_name" />
+
+    <EditText
+        android:id="@+id/editE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/white"
+        android:hint="@string/emailEdit" />
+
+    <EditText
+        android:id="@+id/editP"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColorHint="@android:color/white"
+        android:hint="@string/passwordEdit" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/blankColor"
+        android:fontFamily="@font/calligraffitti"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="@string/login" />
+</LinearLayout>
