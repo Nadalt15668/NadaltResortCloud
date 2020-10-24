@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/NadaltResortCloud.iml" filepath="$PROJECT_DIR$/.idea/NadaltResortCloud.iml" group="NadaltResortCloud" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="NadaltResortCloud/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NadaltResortCloud.iml" filepath="$PROJECT_DIR$/.idea/NadaltResortCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NadaltResortCloud.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NadaltResortCloud.app.iml" />
     </modules>
   </component>
 </project>
